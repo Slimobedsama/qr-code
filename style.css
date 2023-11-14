@@ -1,0 +1,26 @@
+.contents {
+    background-color: hsl(212, 45%, 89%);
+    padding: 80px;
+    margin: 20px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 230px;
+    padding: 8px;
+}
+.card-img, .card-txt {
+    max-width: 200px;
+}
+.card, img {
+    border-radius: 8px;
+}
+.card-img img {
+   max-width: 100%;
+}
