@@ -20,6 +20,7 @@
 .card-txt {
     max-width: 200px;
     font-family: 'Outfit', sans-serif;
+    font-size: 15px;
 }
 .card, .card-img img {
     border-radius: 10px;
@@ -34,4 +35,14 @@
 .light-txt {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+}
+
+/* MEDIA QUERY FOR SMALL SCREEN */
+@media screen and (max-width: 375px) {
+    .contents {
+        margin: 20px 0 0 0;
+    }
+    .card-txt {
+        font-size: 13px;
+    }
 }
