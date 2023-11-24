@@ -1,7 +1,7 @@
 .contents {
     background-color: hsl(212, 45%, 89%);
     padding: 60px;
-    margin: 20px 20px 0 20px;
+    margin: 20px 15px 0 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,10 +12,13 @@
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    padding: 12px;
+    padding: 10px;
 }
-.card-img, .card-txt {
-    max-width: 180px;
+.card-img {
+    max-width: 230px;
+}
+.card-txt {
+    max-width: 200px;
     font-family: 'Outfit', sans-serif;
 }
 .card, .card-img img {
